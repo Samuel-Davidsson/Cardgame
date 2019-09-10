@@ -1,0 +1,70 @@
+#background {
+    background-image: url("images/background.jpg");
+    height: 700px;
+    width: 1000px;
+}
+#submit-button {
+    background-image: url("images/button.png");
+    height: 160px;
+    width: 165px;
+    bottom: 260px;
+    position: absolute;
+    margin-left: 22%;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;   
+}
+#submit-button:hover { 
+    background-color: yellow;
+    border:coral;  
+}
+#cards {
+    margin-left: 3%;
+    top: 180px;
+    position: relative;
+    background: none;
+    cursor: pointer;  
+}
+#mysteryCard {
+    margin-left: 46%;
+    top: 150px;
+    position: relative;
+}
+#blank {
+    position: relative;
+    bottom: 100px;
+    left: 0;
+}
+  #mystery {
+    position: absolute;
+    bottom: 138px;
+    left: 40px;
+}
+#loss {
+    margin-left: 42%;
+    top: 50px;
+}
+#overlay {
+    background-image: url("images/win.png");
+    position: fixed;
+    height: 600px;
+    width: 1000px;
+    z-index: 2;
+    opacity: 0.9;
+    cursor: pointer;
+    display: none;
+  }
+  #error-msg {
+      color: yellow;
+      margin-left: 25%;
+      font-size: x-large;
+      bottom: 150px;
+  }
+  #game-header {
+      text-align: center;
+      color: yellow;
+      font-style: italic;
+  }
+
+
+
